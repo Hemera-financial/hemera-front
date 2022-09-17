@@ -722,8 +722,8 @@
             var i = new a.a(1),
                 r = new a.a(10512e3),
                 s = 1,
-                u = "https://loliswap.org",
-                o = "https://dex.loliswap.org",
+                u = "https://hemera-front.vercel.app",
+                o = "https://hemera-dex.vercel.app",
                 p = "".concat(o, "/#/add"),
                 c = ("".concat(o, "/#/pool"), 50),
                 d = 1
@@ -2376,7 +2376,7 @@
                     return i
                 })),
                 function(e) {
-                    e.BNB = "BNB", e.CAKE = "LOLI", e.SYRUP = "SYRUP", e.BUSD = "BUSD", e.TWT = "TWT", e.UST = "UST", e.ETH = "ETH", e.COMP = "COMP", e.SUSHI = "SUSHI", e.TPT = "TPT"
+                    e.BNB = "BNB", e.CAKE = "MRA", e.SYRUP = "SYRUP", e.BUSD = "BUSD", e.TWT = "TWT", e.UST = "UST", e.ETH = "ETH", e.COMP = "COMP", e.SUSHI = "SUSHI", e.TPT = "TPT"
                 }(a || (a = {})),
                 function(e) {
                     e.COMMUNITY = "Community", e.CORE = "Core", e.BINANCE = "Binance"
@@ -2879,7 +2879,7 @@
             var a = n(46),
                 i = [{
                     sousId: 0,
-                    tokenName: "LOLI",
+                    tokenName: "MRA",
                     tokenAddress: "0xcC263EAeBB192a35CB14747c353C769462463B70",
                     stakingTokenName: a.b.CAKE,
                     stakingTokenAddress: "0xcC263EAeBB192a35CB14747c353C769462463B70",
@@ -2962,7 +2962,7 @@
                 i = n(46),
                 r = [{
                     pid: 0,
-                    lpSymbol: "LOLI",
+                    lpSymbol: "MRA",
                     lpAddresses: {
                         97: "",
                         56: "0xcC263EAeBB192a35CB14747c353C769462463B70"
@@ -2976,12 +2976,12 @@
                     quoteTokenAdresses: a.a.wbnb
                 }, {
                     pid: 1,
-                    lpSymbol: "LOLI-BNB LP",
+                    lpSymbol: "MRA-BNB LP",
                     lpAddresses: {
                         97: "",
                         56: "0x5D4D09245cb79464DeCFAbD6eD991409feEe5851"
                     },
-                    tokenSymbol: "LOLI",
+                    tokenSymbol: "MRA",
                     tokenAddresses: {
                         97: "",
                         56: "0xcC263EAeBB192a35CB14747c353C769462463B70"
@@ -3257,10 +3257,10 @@
                     icon: "TradeIcon",
                     items: [{
                         label: "Exchange",
-                        href: "https://dex.loliswap.org/"
+                        href: "https://hemera-dex.vercel.app/"
                     }, {
                         label: "Liquidity",
-                        href: "https://dex.loliswap.org/#/pool"
+                        href: "https://hemera-dex.vercel.app/#/pool"
                     }]
                 }, {
                     label: "Farms",
@@ -4108,10 +4108,10 @@
                                     as: "h1",
                                     size: "xxl",
                                     mb: "16px",
-                                    children: t(738, "Syrup Pool on LOLI")
+                                    children: t(738, "Syrup Pool on MRA")
                                 }), Object(C.jsxs)("ul", {
                                     children: [Object(C.jsx)("li", {
-                                        children: t(580, "Stake LOLI to earn new tokens.")
+                                        children: t(580, "Stake MRA to earn new tokens.")
                                     }), Object(C.jsx)("li", {
                                         children: t(486, "You can unstake at any time.")
                                     }), Object(C.jsx)("li", {
