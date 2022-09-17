@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://dex.loliswap.org/',
+        href: 'https://hemera-dex.vercel.app/',
       },
       {
         label: 'Liquidity',
-        href: 'https://dex.loliswap.org/#/pool',
+        href: 'https://hemera-dex.vercel.app/#/pool',
       },
     ],
   },
@@ -92,7 +92,7 @@ const config: MenuEntry[] = [
   //   items: [
   //     // {
   //     //   label: 'Voting',
-  //     //   href: 'https://voting.loliswap.org',
+  //     //   href: 'https://voting.hemera-front.vercel.app',
   //     // },
   //     {
   //       label: 'Github',
@@ -100,7 +100,7 @@ const config: MenuEntry[] = [
   //     },
   //     {
   //       label: 'Docs',
-  //       href: 'https://docs.loliswap.org',
+  //       href: 'https://docs.hemera-front.vercel.app',
   //     },
   //     // {
   //     //   label: 'Blog',
