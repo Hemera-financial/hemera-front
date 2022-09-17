@@ -469,7 +469,7 @@
                                 color: "secondary",
                                 fontSize: "12px",
                                 pr: "3px",
-                                children: "LOLI"
+                                children: "MRA"
                             }), Object(Ce.jsx)(ue.L, {
                                 bold: !0,
                                 textTransform: "uppercase",
@@ -717,7 +717,7 @@
                             maximumFractionDigits: 0
                         })) : "-",
                         O = n.lpSymbol && n.lpSymbol.toUpperCase().replace("PANCAKE", ""),
-                        h = n.dual ? n.dual.earnLabel : "LOLI",
+                        h = n.dual ? n.dual.earnLabel : "MRA",
                         m = n.apy && n.apy.times(new be.a(100)).toNumber().toLocaleString("en-US", {
                             maximumFractionDigits: 2
                         }),
@@ -729,7 +729,7 @@
                         }),
                         y = "".concat(pe.a, "/").concat(v);
                     return Object(Ce.jsxs)(pn, {
-                        children: ["LOLI" === n.tokenSymbol && Object(Ce.jsx)(xn, {}), Object(Ce.jsx)(De, {
+                        children: ["MRA" === n.tokenSymbol && Object(Ce.jsx)(xn, {}), Object(Ce.jsx)(De, {
                             lpLabel: O,
                             multiplier: n.multiplier,
                             isCommunityFarm: j,
@@ -1010,7 +1010,7 @@
                     }), [o, m]), Object(Ce.jsxs)(Rn, {
                         children: [Object(Ce.jsxs)(Fn, {
                             children: [Object(Ce.jsx)(Mn, {
-                                children: "LOLI"
+                                children: "MRA"
                             }), Object(Ce.jsx)(Hn, {
                                 children: "EARNED"
                             })]
@@ -1222,7 +1222,7 @@
                         children: [Object(Ce.jsxs)(nt, {
                             children: [Object(Ce.jsx)(Zn, {
                                 children: Object(Ce.jsx)($n, {
-                                    href: "https://dex.loliswap.org/#/add/".concat(j),
+                                    href: "https://hemera-dex.vercel.app/#/add/".concat(j),
                                     children: a(999, "Get ".concat(b), {
                                         name: b
                                     })
