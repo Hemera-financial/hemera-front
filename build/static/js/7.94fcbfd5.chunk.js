@@ -233,11 +233,11 @@
                                 height: 64
                             }), Object(D.jsxs)($, {
                                 children: [Object(D.jsxs)(Y, {
-                                    children: [r(544, "LOLI to Harvest"), ":"]
+                                    children: [r(544, "MRA to Harvest"), ":"]
                                 }), Object(D.jsx)(M, {})]
                             }), Object(D.jsxs)($, {
                                 children: [Object(D.jsxs)(Y, {
-                                    children: [r(546, "LOLI in Wallet"), ":"]
+                                    children: [r(546, "MRA in Wallet"), ":"]
                                 }), Object(D.jsx)(K, {})]
                             }), Object(D.jsx)(Z, {
                                 children: a ? Object(D.jsx)(g.g, {
@@ -245,7 +245,7 @@
                                     disabled: i.length <= 0 || n,
                                     onClick: o,
                                     width: "100%",
-                                    children: n ? r(548, "Collecting LOLI") : r(532, "Harvest all (".concat(i.length, ")"))
+                                    children: n ? r(548, "Collecting MRA") : r(532, "Harvest all (".concat(i.length, ")"))
                                 }) : Object(D.jsx)(U.a, {
                                     width: "100%"
                                 })
@@ -265,11 +265,11 @@
                             children: [Object(D.jsx)(g.t, {
                                 size: "xl",
                                 mb: "24px",
-                                children: e(534, "LOLI Stats")
+                                children: e(534, "MRA Stats")
                             }), Object(D.jsxs)(ne, {
                                 children: [Object(D.jsx)(g.L, {
                                     fontSize: "14px",
-                                    children: e(536, "Total LOLI Supply")
+                                    children: e(536, "Total MRA Supply")
                                 }), c && Object(D.jsx)(J, {
                                     fontSize: "14px",
                                     value: c
@@ -277,7 +277,7 @@
                             }), Object(D.jsxs)(ne, {
                                 children: [Object(D.jsx)(g.L, {
                                     fontSize: "14px",
-                                    children: e(538, "Total LOLI Burned")
+                                    children: e(538, "Total MRA Burned")
                                 }), Object(D.jsx)(J, {
                                     fontSize: "14px",
                                     decimals: 0,
@@ -286,7 +286,7 @@
                             }), Object(D.jsxs)(ne, {
                                 children: [Object(D.jsx)(g.L, {
                                     fontSize: "14px",
-                                    children: e(540, "New LOLI/block")
+                                    children: e(540, "New MRA/block")
                                 }), Object(D.jsx)(J, {
                                     fontSize: "14px",
                                     decimals: 0,
@@ -452,9 +452,9 @@
                                 size: "xl",
                                 mb: "24px",
                                 color: "secondary",
-                                children: e(576, "Loliswap")
+                                children: e(576, "HemeraSwap")
                             }), Object(D.jsx)(g.L, {
-                                children: e(578, "The #1 AMM and yield farm on Binance Smart Chain.")
+                                children: e(578, "A top-tier AMM and yield farm on Binance Smart Chain.")
                             })]
                         }), Object(D.jsxs)("div", {
                             children: [Object(D.jsxs)(de, {
