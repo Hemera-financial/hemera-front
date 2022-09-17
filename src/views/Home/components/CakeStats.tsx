@@ -30,18 +30,18 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'LOLI Stats')}
+          {TranslateString(534, 'MRA Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total LOLI Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total MRA Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total LOLI Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total MRA Burned')}</Text>
           <CardValue fontSize="14px" decimals={0} value={burnedBalance} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New LOLI/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New MRA/block')}</Text>
           <CardValue fontSize="14px" decimals={0} value={1} />
         </Row>
       </CardBody>
